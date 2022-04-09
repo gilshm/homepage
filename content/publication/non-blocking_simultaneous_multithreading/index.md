@@ -26,8 +26,8 @@ publishDate: "2020-10-17T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *International Symposium on Microarchitecture (MICRO)*
-publication_short: In *MICRO*
+publication: International Symposium on Microarchitecture (MICRO)
+publication_short: MICRO
 
 abstract: Deep neural networks (DNNs) are known for their inability to utilize underlying hardware resources due to hard-ware susceptibility to sparse activations and weights. Even in finer granularities, many of the non-zero values hold a portion of zero-valued bits that may cause inefficiencies when executed on hard-ware. Inspired by conventional CPU simultaneous multithreading (SMT) that increases computer resource utilization by sharing them across several threads, we propose non-blocking SMT (NB-SMT) designated for DNN accelerators. Like conventional SMT, NB-SMT shares hardware resources among several execution flows. Yet, unlike SMT, NB-SMT is non-blocking, as it handles structural hazards by exploiting the algorithmic resiliency of DNNs. Instead of opportunistically dispatching instructions while they wait in a reservation station for available hardware, NB-SMT temporarily reduces the computation precision to accommodate all threads at once, enabling a non-blocking operation. We demonstrate NB-SMT applicability using SySMT, an NB-SMT-enabled output-stationary systolic array (OS-SA). Compared with a conventional OS-SA, a 2-threaded SySMT consumes 1.4x the area and delivers 2x speedup with 33% energy savings and less than 1% accuracy degradation of state-of-the-art CNNs with ImageNet. A 4-threaded SySMT consumes 2.5x the area and delivers, for example, 3.4x speedup and 39% energy savings with 1% accuracy degradation of 40%-pruned ResNet-18.
 

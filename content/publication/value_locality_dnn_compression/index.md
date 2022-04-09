@@ -1,5 +1,5 @@
 ---
-title: "Non-Blocking Simultaneous Multithreading: Embracing the Resiliency of Deep Neural Networks"
+title: "Compression of Neural Networks for Specialized Tasks via Value Locality"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -26,8 +26,8 @@ publishDate: "2020-10-17T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Multidisciplinary Digital Publishing Institute (MDPI)*
-publication_short: In *MDPI*
+publication: Multidisciplinary Digital Publishing Institute (MDPI)
+publication_short: MDPI
 
 abstract: "Convolutional Neural Networks (CNNs) are broadly used in numerous applications such as computer vision and image classification. Although CNN models deliver state-of-the-art accuracy, they require heavy computational resources that are not always affordable or available on every platform. Limited performance, system cost, and energy consumption, such as in edge devices, argue for the optimization of computations in neural networks. Toward this end, we propose herein the value-locality-based compression (VELCRO) algorithm for neural networks. VELCRO is a method to compress general-purpose neural networks that are deployed for a small subset of focused specialized tasks. Although this study focuses on CNNs, VELCRO can be used to compress any deep neural network. VELCRO relies on the property of value locality, which suggests that activation functions exhibit values in proximity through the inference process when the network is used for specialized tasks. VELCRO consists of two stages: a preprocessing stage that identifies output elements of the activation function with a high degree of value locality, and a compression stage that replaces these elements with their corresponding average arithmetic values. As a result, VELCRO not only saves the computation of the replaced activations but also avoids processing their corresponding output feature map elements. Unlike common neural network compression algorithms, which require computationally intensive training processes, VELCRO introduces significantly fewer computational requirements. An analysis of our experiments indicates that, when CNNs are used for specialized tasks, they introduce a high degree of value locality relative to the general-purpose case. In addition, the experimental results show that without any training process, VELCRO produces a compression-saving ratio in the range 13.5–30.0% with no degradation in accuracy. Finally, the experimental results indicate that, when VELCRO is used with a relatively low compression target, it significantly improves the accuracy by 2–20% for specialized CNN tasks."
 

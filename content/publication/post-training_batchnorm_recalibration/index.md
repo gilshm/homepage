@@ -26,8 +26,8 @@ publishDate: "2020-10-12T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *arXiv*
-publication_short: In *arXiv*
+publication: arXiv
+publication_short: arXiv
 
 abstract: We revisit non-blocking simultaneous multithreading (NB-SMT) introduced previously by Shomron and Weiser (2020). NB-SMT trades accuracy for performance by occasionally "squeezing" more than one thread into a shared multiply-and-accumulate (MAC) unit. However, the method of accommodating more than one thread in a shared MAC unit may contribute noise to the computations, thereby changing the internal statistics of the model. We show that substantial model performance can be recouped by post-training recalibration of the batch normalization layers' running mean and running variance statistics, given the presence of NB-SMT.
 

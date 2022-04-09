@@ -28,8 +28,8 @@ publishDate: "2020-08-23T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *European Conference on Computer Vision (ECCV)*
-publication_short: In *ECCV*
+publication: European Conference on Computer Vision (ECCV)
+publication_short: ECCV
 
 abstract: Convolutional neural networks (CNNs) introduce state-of-the-art results for various tasks with the price of high computational demands. Inspired by the observation that spatial correlation exists in CNN output feature maps (ofms), we propose a method to dynamically predict whether ofm activations are zero-valued or not according to their neighboring activation values, thereby avoiding zero-valued activations and reducing the number of convolution operations. We implement the zero activation predictor (ZAP) with a lightweight CNN, which imposes negligible overheads and is easy to deploy on existing models. ZAPs are trained by mimicking hidden layer ouputs; thereby, enabling a parallel and label-free training. Furthermore, without retraining, each ZAP can be tuned to a different operating point trading accuracy for MAC reduction.
 

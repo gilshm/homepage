@@ -27,8 +27,8 @@ publishDate: "2019-06-20T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Computer Architecture Letters (CAL)*
-publication_short: In *CAL*
+publication: Computer Architecture Letters (CAL)
+publication_short: CAL
 
 abstract: Systolic arrays (SAs) are highly parallel pipelined structures capable of executing various tasks such as matrix multiplication and convolution. They comprise a grid of usually homogeneous processing units (PUs) that are responsible for the multiply-accumulate (MAC) operations in the case of matrix multiplication. It is not rare for a PU input to be zero-valued, in which case the PU becomes idle and the array becomes underutilized. In this paper we consider a solution to employ the underutilized PUs via simultaneous multithreading (SMT). We explore the design space of a SMT-SA variant and evaluate its performance, area efficiency, and energy consumption. In addition, we suggest a tiling method to reduce area overheads. Our evaluation shows that a 4-thread FP16-based SMT-SA achieves speedups of up to 3.6x as compared to conventional SA, with 1.7x area overhead and negligible energy overhead.
 

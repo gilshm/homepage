@@ -26,8 +26,8 @@ publishDate: "2018-12-28T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Computer Architecture Letters (CAL)*
-publication_short: In *CAL*
+publication: Computer Architecture Letters (CAL)
+publication_short: CAL
 
 abstract: Convolutional neural networks (CNNs) are a widely used form of deep neural networks, introducing state-of-the-art results for different problems such as image classification, computer vision tasks, and speech recognition. However, CNNs are compute intensive, requiring billions of multiply-accumulate (MAC) operations per input. To reduce the number of MACs in CNNs, we propose a value prediction method that exploits the spatial correlation of zero-valued activations within the CNN output feature maps, thereby saving convolution operations. Our method reduces the number of MAC operations by 30.4%, averaged on three modern CNNs for ImageNet, with top-1 accuracy degradation of 1.7%, and top-5 accuracy degradation of 1.1%.
 

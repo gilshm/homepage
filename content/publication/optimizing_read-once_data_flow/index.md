@@ -29,8 +29,8 @@ publishDate: "2016-01-22T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Computer Architecture Letters (CAL)*
-publication_short: In *CAL*
+publication: Computer Architecture Letters (CAL)
+publication_short: CAL
 
 abstract: Memory hierarchies in modern computing systems work well for workloads that exhibit temporal data locality. Data that is accessed frequently is brought closer to the computing cores, allowing faster access times, higher bandwidth, and reduced transmission energy. Many applications that work on big data, however, read data only once. When running these applications on modern computing systems, data that is not reused is nevertheless transmitted and copied into all memory hierarchy levels, leading to energy and bandwidth waste. In this paper we evaluate workloads dealing with read-once data and measure their energy consumption. We then modify the workloads so that data that is known to be used only once is transferred directly from storage into the CPU's last level cache, effectively bypassing DRAM and avoiding keeping unnecessary copies of the data. Our measurements on a real system show savings of up to 5 Watts in server power and up to 3.9% reduction in server energy when 160 GB of read-once data bypasses DRAM.
 
