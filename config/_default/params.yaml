@@ -18,10 +18,10 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
+    description: 'Gil Shomron homepage.'
     twitter: 'wowchemy'
   analytics:
-    google_analytics: ''
+    google_analytics: 'UA-162687229-1'
     baidu_tongji: ''
   verification:
     google: ''
@@ -70,7 +70,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/gilshm/homepage'
     content_dir: content
     branch: master
   avatar:
