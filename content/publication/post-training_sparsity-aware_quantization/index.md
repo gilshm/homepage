@@ -47,7 +47,7 @@ featured: false
 #   url: http://example.org
 
 url_pdf: 'https://arxiv.org/pdf/2002.07686'
-url_code: 'https://github.com/moranshkolnik/RobustQuantization'
+url_code: 'https://github.com/gilshm/sparq'
 url_dataset: ''
 url_poster: ''
 url_project: ''
