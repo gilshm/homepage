@@ -14,7 +14,7 @@ organizations:
   url: https://www.nvidia.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Deep Learning Architect @ NVIDIA, working at the intersection between computer architecture and deep learning.
 
 # Interests to show in About widget
 interests:
