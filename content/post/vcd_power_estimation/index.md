@@ -193,7 +193,7 @@ and (4) we dump everything into a VCD. Be aware that you might need to write a w
 
 ## Innovus: Static VCD-BASED Power Estimation
 Fire up Cadence Innovus and reach the point where you have your design “on silicon”.
-![vcd-power_innovus_pe](https://raw.githubusercontent.com/gilshm/gilshm.github.io/master/images/vcd-power_innovus_pe.png)
+![vcd-power_innovus_pe](https://raw.githubusercontent.com/gilshm/homepage/master/content/post/vcd_power_estimation/vcd-power_innovus_pe.png)
 
 To setup power analysis with a VCD file, run the following commands:
 ```
@@ -245,4 +245,4 @@ close $fd
 
 Some post-processing, and voilà!
 
-![](https://raw.githubusercontent.com/gilshm/gilshm.github.io/master/images/vcd-power_results.png)
+![](https://raw.githubusercontent.com/gilshm/homepage/master/content/post/vcd_power_estimation/vcd-power_results.png)
